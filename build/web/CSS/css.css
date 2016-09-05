@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0px;
+}
+input, select {
+    display: block;
+    margin:0 0 10px 30px; 
+}
+#studentLvl {
+    margin:0 0 5px 30px;
+        font-family: serif;  
+}
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+::-webkit-input-placeholder {
+    padding-left: 3px; 
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    padding-left:3px;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   padding-left: 3px;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   padding-left:3px;
+}
+.selectedRow, #studentTable tr:hover {
+    background-color: #DEB887 !important;
+}
+#tableFormDelete {
+    margin-bottom: 50px;
+}
